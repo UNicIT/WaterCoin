@@ -828,7 +828,7 @@ uint256 static GetOrphanRoot(const CBlock* pblock)
 
 int64 static GetBlockValue(int nHeight, int64 nFees)
 {
-    int64 nSubsidy = 1 * COIN;
+    int64 nSubsidy = 10 * COIN;
 
     return nSubsidy + nFees;
 }
@@ -1999,8 +1999,8 @@ bool LoadBlockIndex(bool fAllowNew)
     {
         if (!fAllowNew)
             return false;
-    
-        
+
+
         // Genesis block
         const char* pszTimestamp = "Building a coin to show the world how...";
         CTransaction txNew;

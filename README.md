@@ -1,3 +1,3 @@
-FooCoin (FOO)
+watercoin (FOO)
 
-Blah, blah, blah.
+This is the (not so) famous cryptocurrency, coined by Ruben Waterman for the purposes of COMP541.
